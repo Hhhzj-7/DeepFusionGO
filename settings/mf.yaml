@@ -1,0 +1,30 @@
+dataset: mf
+model_path: models
+mlb: data/mf_go.mlb
+results: results
+
+network:
+  pid_list: data/ppi_pid_list.txt
+  weight_mat: data/ppi_mat.npz
+  blastdb: data/ppi_blastdb
+  dgl: data/ppi_dgl_top_100
+  feature: data/ppi_interpro.npz
+  emb: data/embedding.npy
+train:
+  name: train
+  pid_list_file: data/mf_train_pid_list.txt
+  fasta_file: data/mf_train.fasta
+  pid_go_file: data/mf_train_go.txt
+valid:
+  name: valid
+  pid_list_file: data/mf_valid_pid_list.txt
+  fasta_file: data/mf_valid.fasta
+  pid_go_file: data/mf_valid_go.txt
+  all_fasta_file: data/ppi.fasta
+  esm_id: data/mf_valid_esm_id.npy
+test:
+  name: test
+  pid_list_file: data/mf_test_pid_list.txt
+  fasta_file: data/mf_test.fasta
+  all_fasta_file: data/ppi.fasta
+  esm_id: data/mf_test_esm_id.npy

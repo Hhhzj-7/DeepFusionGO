@@ -1,0 +1,12 @@
+name: DeepFusionGO
+
+model:
+  hidden_size: 1024
+  num_gcn: 2
+
+train:
+  epochs_num: 1  # mf 15 bp 5 cc 5
+  batch_size: 15
+
+test:
+  batch_size: 15

@@ -1,7 +1,7 @@
 # DeepFusionGO
 DeepFusionGO: Protein function prediction by fusing heterogeneous features through deep learning
 
-We use the dataset and from DeepGraphGO(https://github.com/yourh/DeepGraphGO).
+We use the dataset from DeepGraphGO(https://github.com/yourh/DeepGraphGO).All the data we use can be download from [data](https://drive.google.com/file/d/1d1NYUve6LZ4OZsD1cb56w1roWCkxcEQ2/view?usp=sharing)
 
 ## Environment
 

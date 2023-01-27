@@ -20,11 +20,7 @@ valid:
   pid_list_file: data/mf_valid_pid_list.txt
   fasta_file: data/mf_valid.fasta
   pid_go_file: data/mf_valid_go.txt
-  all_fasta_file: data/ppi.fasta
-  esm_id: data/mf_valid_esm_id.npy
 test:
   name: test
   pid_list_file: data/mf_test_pid_list.txt
   fasta_file: data/mf_test.fasta
-  all_fasta_file: data/ppi.fasta
-  esm_id: data/mf_test_esm_id.npy
